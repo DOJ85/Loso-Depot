@@ -183,8 +183,14 @@ $(document).ready(function(){
   });
 });
 
+// Add animation/ Initialize wow
+$(document).ready(function() {
 
+  'use strict';
+  
+  new WOW().init();
 
+});
 
 
 
